@@ -1,0 +1,38 @@
+.bg-cont {
+  padding: 30px;
+  background-color: #161624;
+  height: 1200px;
+  width: 1000px;
+}
+.head {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.countries-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 40%;
+  overflow-y: scroll;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+.no-countries {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+.flag-countries-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}

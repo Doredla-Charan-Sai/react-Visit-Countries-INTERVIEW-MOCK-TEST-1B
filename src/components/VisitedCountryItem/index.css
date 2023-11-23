@@ -1,0 +1,27 @@
+.flag-item {
+  width: 32%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.flag {
+  height: 200px;
+  width: 100%;
+}
+.name-remove {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.remove {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+}
